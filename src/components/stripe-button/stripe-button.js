@@ -9,7 +9,7 @@ const StripeCheckoutButton = ({ price }) => {
     console.log(token);
   };
   return (
-    <StripeCheckoutButton
+    <StripeCheckout
       label="Pay Now"
       name="CRWN Clothing Ltd."
       billingAddress
